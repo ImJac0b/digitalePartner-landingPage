@@ -1,0 +1,14 @@
+.error-text {
+  text-align: center;
+}
+
+.error-text h1 {
+  font-size: 18rem;
+}
+
+.error-text p {
+  color: #2c2e3d;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}

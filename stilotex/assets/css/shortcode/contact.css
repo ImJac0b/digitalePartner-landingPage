@@ -1,0 +1,25 @@
+.contact-left-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.contact-left-item i {
+  color: #555555;
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.contact-left-list p, .contact-left-list a {
+  color: #2c2e3d;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+.contact-left-list p {
+  font-size: 2rem;
+}

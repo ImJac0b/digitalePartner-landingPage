@@ -1,0 +1,29 @@
+.cart-page-total h2 {
+  margin-bottom: 2rem;
+}
+
+.cart-page-total ul {
+  border-left: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  margin-bottom: 2rem;
+}
+
+.cart-page-total ul li {
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding: 1.5rem 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.cart-page-total ul li span {
+  font-weight: 500;
+}

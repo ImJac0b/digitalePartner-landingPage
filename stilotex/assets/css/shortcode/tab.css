@@ -1,0 +1,141 @@
+.stilotex-product-tab-link.nav-link {
+    position: relative;
+    display: block;
+    padding: 3rem 2rem;
+    cursor: pointer;
+    color: #2c2e3d;
+    background: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #f6f6f6;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+  
+  .stilotex-product-tab-link.nav-link:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #94c7eb;
+  }
+  
+  .stilotex-product-tab-link.nav-link.active {
+    color: #fff;
+    background-color: #f6f6f6;
+    border-right-color: #f6f6f6;
+    border-radius: 0;
+  }
+  
+  .stilotex-product-tab-link.nav-link:hover {
+    color: #000;
+  }
+  .product-tab--3 .stilotex-product-tab-link.nav-link {
+    border: none;
+    border-right: 1px solid #ddd;
+  }
+  
+  .stilotex-ptab-content {
+    height: 100%;
+    border: 1px solid #f6f6f6;
+  }
+  
+  .our-products-area .stilotex-ptab-content  {
+    background: #f6f6f6;
+  }
+  
+  .stilotex-tab-carousel {
+    position: relative;
+    padding-top: 15px;
+  }
+  
+  .stilotex-tab-carousel .owl-prev {
+    margin: 0 5px 0 25px;
+    width: 3rem;
+    height: 3rem;
+    line-height: 2.8rem;
+  }
+  
+  .stilotex-tab-carousel .owl-next {
+    width: 3rem;
+    height: 3rem;
+    line-height: 2.8rem;
+  }
+  
+  .product-tab--3 .stilotex-product-tab .stilotex-product-tab-link:before {
+    display: none;
+  }
+  
+  .product-tab--3 .stilotex-product-tab .stilotex-product-tab-link.active {
+    color: #fff;
+    background-color: #333 !important;
+  }
+  
+  .tab-pane .product-box {
+    -webkit-transition: all 0.8s ease-in;
+    -moz-transition: all 0.8s ease-in;
+    -ms-transition: all 0.8s ease-in;
+    -o-transition: all 0.8s ease-in;
+    transition: all 0.8s ease-in;
+    background: #fff;
+  }
+  
+  .main-shop-wrapper .tab-pane .product-box {
+    margin-bottom: 30px;
+  }
+  
+  .tab-pane.active .product-box {
+    animation: zoomIn .5s linear .1s;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+  }
+  
+  
+  /****************************
+  Single Product Info tab
+  ****************************/
+  
+  .single-stilotex-product-tab {
+    background-color: #f6f6f6;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-bottom: none;
+  }
+  
+  
+  .single-stilotex-product-tab .nav-link {
+    padding: 2rem;
+    text-transform: capitalize;
+    color: #2c2e3d;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .single-stilotex-product-tab .nav-link.active {
+    color: #94c7eb;
+    background: #fff;
+  }
+  
+  .single-stilotex-product-tab .nav-link:hover {
+    color: #94c7eb;
+  }
+  
+  .single-stilotex-ptab-content {
+    padding: 3rem;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  .ratings a {
+    color: #94c7eb;
+  }
+  .review-area h2 {
+    margin-bottom: 20px;
+  }

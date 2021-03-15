@@ -1,0 +1,47 @@
+  .breadcumb-area {
+    background: url(../../img/breadcrumb.jpg) no-repeat scroll center/cover;
+    position: relative;
+  }
+  .breadcumb-area .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, .5);
+    color: #FFF;
+}
+  
+  .page-title {
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .stilotex-breadcumb {
+    position: relative;
+    display: inline-block;
+    padding-right: 1.2rem;
+  }
+  
+  .stilotex-breadcumb:not(:last-child):after {
+    position: absolute;
+    content: ">";
+    right: 0;
+    top: 0;
+    color: #fff;
+  }
+  
+  .stilotex-breadcumb-link {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .stilotex-breadcumb-link.current {
+    color: #08f79b;
+  }
+  a.stilotex-breadcumb-link:hover {
+    color: #fff;
+  }
